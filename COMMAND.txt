@@ -1,0 +1,131 @@
+! ========================
+! Admin Block Router (R1)
+! ========================
+hostname ADMIN-CORE-R1
+enable secret <OSPF>
+!
+int g0/0
+ ip address 10.0.1.254 255.255.255.0
+ duplex full
+ speed 100
+ no shut
+ !
+int s0/1/0
+ ip address 192.168.12.1 255.255.255.252
+ encapsulation ppp
+ clock rate 128000
+ no shut
+ !
+ interface Loopback0
+ ip address 1.1.1.1 255.255.255.255
+!
+router ospf 10
+ router-id 1.1.1.1
+ network 10.0.0.0 0.0.0.255 area 0
+ network 192.168.12.0 0.0.0.3 area 0
+ passive-interface g0/0
+ 
+
+! ========================
+! Staffroom Router (R3)
+! ========================
+hostname STAFFF-R3
+enable secret <OSPF>
+!
+int g0/0/0
+ ip address 10.0.2.254 255.255.255.0
+ duplex full
+ speed 100
+ no shut
+!
+int g0/0/1
+ ip address 192.168.34.1 255.255.255.252
+ duplex full
+ speed 100
+ no shut
+!
+interface Loopback0
+ ip address 7.7.7.7 255.255.255.255
+!
+router ospf 10
+ router-id 7.7.7.7
+ network 10.0.0.0 0.0.0.255 area 0
+ network 192.168.34.0 0.0.0.3 area 0
+ passive-interface g0/0/0
+ 
+
+! ========================
+! Library Router (R4)
+! ========================
+hostname LIB-EDGE-R4
+enable secret <OSPF>
+!
+int g0/0
+ ip address 192.168.34.2 255.255.255.252
+ no shut
+ !
+int g0/1
+ ip address 192.168.245.2 255.255.255.248
+ no shut
+ !
+ interface Loopback0
+ ip address 4.4.4.4 255.255.255.255
+ !
+router ospf 10
+ router-id 4.4.4.4
+ network 192.168.34.0 0.0.0.3 area 0
+ network 192.168.245.0 0.0.0.7 area 0
+ area 0 authentication message-digest
+ 
+
+! ========================
+! Humanities Dept Router (R5)
+! ========================
+hostname HUMAN-EDGE-R5
+enable secret <OSPF>
+!
+int g0/0
+ ip address 192.168.245.3 255.255.255.248
+ duplex full
+ speed 100
+ no shut
+!
+int g0/1
+ ip address 203.0.113.1 255.255.252.0
+ no shut
+!
+interface Loopback0
+ ip address 4.4.4.4 255.255.255.255
+!
+router ospf 10
+ router-id 5.5.5.5
+ network 192.168.245.0 0.0.0.7 area 0
+ network 203.0.113.0 0.0.0.3 area 0
+ 
+
+! ========================
+! ISP Router (R-ISP1)
+! ========================
+hostname FAIBA-ISPR
+enable secret <OSPF>
+!
+int g0/0
+ ip address 203.0.113.2 255.255.255.252
+ no shut
+router ospf 10
+ router-id 10.10.10.10
+ network 203.0.113.0 0.0.0.3 area 0
+ area 0 authentication message-digest
+ int g0/0
+  ip ospf authentication message-digest
+  ip ospf message-digest-key 1 md5 Cisco123
+
+! ========================
+! Switch VLAN Config Example
+! ========================
+hostname SW1
+vlan 10
+ name ADMIN
+int fa0/2
+ switchport mode access
+ switchport access vlan 10
