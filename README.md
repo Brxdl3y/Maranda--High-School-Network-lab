@@ -1,12 +1,12 @@
-Maranda High School – Enterprise Network Topology  
+**Maranda High School – Enterprise Network Topology**
 
 This project simulates the **Maranda High School network infrastructure** using Cisco Packet Tracer.  
 
-The design represents a scalable and secure LAN/WAN deployment, integrating advanced routing and switching concepts within the various departments; Laboratory, Library, Administration Block, Staffroom, Humanities and Faiba acting as the ISP vendor. 
+The design represents a scalable and secure LAN/WAN deployment, integrating advanced routing and switching concepts within the various departments; **Laboratory, Library, Administration Block, Staffroom, Humanities** and **Faiba** acting as the ISP vendor. 
 
 However, it also highlights enterprise-grade routing(OSPF), switching, and security implementation suitable for modern academic institutions. Perfectly aligned with CCNA/CCNP-level skills and practical network design principles.
 
-Objectives
+**Objectives**
 
 - Provide **connectivity across departments** (Admin, Staffroom, Library, Humanities).  
 
