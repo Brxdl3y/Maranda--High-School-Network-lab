@@ -19,7 +19,7 @@ However, it also highlights enterprise-grade routing(OSPF), switching, and secur
 - Simulate **ISP connectivity** to represent real-world internet access.
 
 
-⚙️ Features & Configurations  
+ **Features & Configurations** 
 ### 🔹 Routing & WAN
 - **OSPFv2 Routing** implemented for dynamic route exchange.  
 - **Passive Interfaces** configured to minimize routing overhead.  
@@ -27,17 +27,17 @@ However, it also highlights enterprise-grade routing(OSPF), switching, and secur
 - **MD5 Authentication** applied for OSPF neighbor security.  
 - **Loopback Interfaces** configured for router identification & testing.  
 
-### 🔹 LAN & Switching
+###  LAN & Switching
 - **Subnetting** applied to efficiently allocate IP addresses across VLANs.  
 - **Departmental VLANs** configured for Admin, Staffroom, Library, and Humanities.  
 - **Inter-VLAN routing** enabled for communication across departments.  
 
-### 🔹 Security & Reliability
+###  Security & Reliability
 - **MD5 OSPF Encryption** ensures secure routing updates.  
 - **Access Control** via VLAN segmentation.  
 - **Scalable Design** allowing future departmental expansion.  
 
-### 🔹 End Devices
+###  End Devices
 - PCs in Admin & Staffroom VLANs with gateway connectivity.  
 - ISP connectivity simulated for real-world internet access.  
 
