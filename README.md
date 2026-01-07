@@ -51,10 +51,11 @@ However, it also highlights enterprise-grade routing(OSPF), switching, and secur
 | Humanities Dept | 192.168.245.0/29 | 192.168.245.3 | 40 | 192.168.245.1 – 192.168.245.6 |
 
 
-📌 Skills Demonstrated
+**Skills Demonstrated**
 
-✅ Enterprise Network Design  
-✅ OSPF Dynamic Routing & Authentication  
+Enterprise Network Design  
+
+OSPF Dynamic Routing & Authentication  
 ✅ VLAN & Subnetting Expertise  
 ✅ WAN Connectivity (Serial Links & ISP Simulation)  
 ✅ Secure & Scalable Architecture  
