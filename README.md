@@ -68,7 +68,9 @@ Subnetting Summary
 3. Test connectivity via **ping** & **OSPF neighbor adjacencies**. 
 
  Connect With Me
-  Author - Bradley Giovanni
+ 
+  Author - **Bradley Giovanni**
+
 - **Email**: giovanniibradley@gmail.com 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bradley-giovanniii293)
