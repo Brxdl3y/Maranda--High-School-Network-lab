@@ -6,7 +6,7 @@ The design represents a scalable and secure LAN/WAN deployment, integrating adva
 
 However, it also highlights enterprise-grade routing(OSPF), switching, and security implementation suitable for modern academic institutions. Perfectly aligned with CCNA/CCNP-level skills and practical network design principles.
 
-**Objectives**
+📍**Objectives**
 
 🔸- Provide **connectivity across departments** (Admin, Staffroom, Library, Humanities).  
 
@@ -16,7 +16,7 @@ However, it also highlights enterprise-grade routing(OSPF), switching, and secur
 
 🔸- Apply **subnetting & VLAN segmentation** for structured IP addressing.  
 
-- Simulate **ISP connectivity** to represent real-world internet access.
+🔸 Simulate **ISP connectivity** to represent real-world internet access.
 
 
  **Features & Configurations** 
