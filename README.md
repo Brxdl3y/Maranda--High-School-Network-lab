@@ -8,13 +8,13 @@ However, it also highlights enterprise-grade routing(OSPF), switching, and secur
 
 **Objectives**
 
-- Provide **connectivity across departments** (Admin, Staffroom, Library, Humanities).  
+🔸- Provide **connectivity across departments** (Admin, Staffroom, Library, Humanities).  
 
-- Implement **efficient routing** using OSPF for inter-network communication.  
+🔸- Implement **efficient routing** using OSPF for inter-network communication.  
 
-- Ensure **network security** through MD5 authentication and passive interfaces.  
+🔸- Ensure **network security** through MD5 authentication and passive interfaces.  
 
-- Apply **subnetting & VLAN segmentation** for structured IP addressing.  
+🔸- Apply **subnetting & VLAN segmentation** for structured IP addressing.  
 
 - Simulate **ISP connectivity** to represent real-world internet access.
 
