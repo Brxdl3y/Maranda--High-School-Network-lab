@@ -1,4 +1,4 @@
-**Maranda High School – Enterprise Network Topology**
+📌**Maranda High School – Enterprise Network Topology**
 
 This project simulates the **Maranda High School network infrastructure** using Cisco Packet Tracer.  
 
@@ -20,19 +20,20 @@ However, it also highlights enterprise-grade routing(OSPF), switching, and secur
 
 
  **Features & Configurations** 
-📌###  Routing & WAN
+
+📌**Routing & WAN**
 - **OSPFv2 Routing** implemented for dynamic route exchange.  
 - **Passive Interfaces** configured to minimize routing overhead.  
 - **Serial WAN links** established between departments and ISP.  
 - **MD5 Authentication** applied for OSPF neighbor security.  
 - **Loopback Interfaces** configured for router identification & testing.  
 
-###  LAN & Switching
+📌**LAN & Switching**
 - **Subnetting** applied to efficiently allocate IP addresses across VLANs.  
 - **Departmental VLANs** configured for Admin, Staffroom, Library, and Humanities.  
 - **Inter-VLAN routing** enabled for communication across departments.  
 
-###  Security & Reliability
+📌**Security & Reliability**
 - **MD5 OSPF Encryption** ensures secure routing updates.  
 - **Access Control** via VLAN segmentation.  
 - **Scalable Design** allowing future departmental expansion.  
