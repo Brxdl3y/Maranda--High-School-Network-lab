@@ -20,7 +20,7 @@ However, it also highlights enterprise-grade routing(OSPF), switching, and secur
 
 
  **Features & Configurations** 
-###  Routing & WAN
+📌###  Routing & WAN
 - **OSPFv2 Routing** implemented for dynamic route exchange.  
 - **Passive Interfaces** configured to minimize routing overhead.  
 - **Serial WAN links** established between departments and ISP.  
@@ -42,7 +42,7 @@ However, it also highlights enterprise-grade routing(OSPF), switching, and secur
 - ISP connectivity simulated for real-world internet access.  
 
 
-**Subnetting Summary**
+📌**Subnetting Summary**
 | Department      | Subnet         | Gateway       | VLAN | Host Range          |
 |-----------------|---------------|--------------|------|---------------------|
 | Admin Office    | 10.0.1.0/24   | 10.0.1.254   | 10   | 10.0.1.1 – 10.0.1.254 |
@@ -51,7 +51,7 @@ However, it also highlights enterprise-grade routing(OSPF), switching, and secur
 | Humanities Dept | 192.168.245.0/29 | 192.168.245.3 | 40 | 192.168.245.1 – 192.168.245.6 |
 
 
-**Skills Demonstrated**
+📌**Skills Demonstrated**
 
 Enterprise Network Design  
 
