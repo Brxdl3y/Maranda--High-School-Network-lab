@@ -19,7 +19,7 @@ However, it also highlights enterprise-grade routing(OSPF), switching, and secur
 🔸 Simulate **ISP connectivity** to represent real-world internet access.
 
 
- **Features & Configurations** 
+📌 **Features & Configurations** 
 
 📌**Routing & WAN**
 - **OSPFv2 Routing** implemented for dynamic route exchange.  
