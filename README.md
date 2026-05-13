@@ -40,7 +40,7 @@ However, it also highlights enterprise-grade routing(OSPF), switching, and secur
 
 ###  End Devices
 - PCs in Admin & Staffroom VLANs with gateway connectivity.  
-- ISP connectivity simulated for real-world internet access.  
+- ISP connectivity simulated for real-world internet access all throoughout.  
 
 
 📌**Subnetting Summary**
